@@ -1,0 +1,814 @@
+body {
+    font-family: sans-serif;
+}
+
+body {
+    font-family: sans-serif;
+    
+    /* Shop */
+    left: 0px;
+    top: 0px;
+    position: relative;
+   
+
+    background: white;
+
+}
+html{
+    zoom:100%;
+}
+header {
+    /* завантаження (7) */
+
+    position: absolute;
+    
+    height: 549px;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    background-color: rgb(155, 144, 144);
+
+}
+
+.logo {
+    position: absolute;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 50%;
+    
+    top: 20px;
+}
+header p{
+    display: flex;
+    text-align: center;
+}
+nav {
+    display: flex;
+
+    background-image: linear-gradient(to right, #5CA5F2, #386696);
+    /* Rectangle 3 */
+justify-content: space-around;
+    position: relative;
+    width: 100%;
+    height: 85px;
+    left: 0px;
+    top: 172px;
+
+    background: linear-gradient(90deg, #5CA5F2 0%, #386696 100%);
+
+
+}
+
+nav a {
+    display: flex;
+
+    text-decoration: none;
+    padding: 10px 10px 10px 10px;
+    opacity: 0.5;
+
+    
+
+    position: relative;
+    width: 200px;
+    height: 22px;
+    left: -15px;
+    top: 20px;
+    justify-content: space-around;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 18px;
+
+    color: black;
+
+
+}
+
+
+.one {
+    /* Магазин */
+
+    position: absolute;
+    width: 259px;
+    height: 75px;
+    left: 250px;
+    top: 300px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 75px;
+    /* identical to box height */
+
+    color: #FFFFFF;
+
+
+}
+
+.one:hover {
+    transform: scale(1.5);
+    transition: 1s linear;
+}
+
+.two {
+    
+
+    position: absolute;
+    width: 166px;
+    height: 75px;
+    left: 573px;
+    top: 300px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 75px;
+    
+
+    color: #FFFFFF;
+}
+
+.two:hover {
+    transform: scale(1.5);
+    transition: 1s linear;
+}
+
+
+.us {
+    /* Про нас */
+
+    position: absolute;
+    width: 190px;
+    height: 56px;
+    left: 88px;
+    top: 650px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+
+    color: #000000;
+
+
+}
+.call-butt{
+    position: relative;
+    
+    text-decoration: none;
+    width: 196px;
+    height: 28px;
+    left: 100px;
+    top: 1112px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
+    background-color: #5CA5F2;
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+
+}
+.call-butt:hover {
+    box-shadow: 3px 3px 3px 3px grey;
+    transition: 1s linear;
+}
+.us:hover {
+    transition: 1s linear;
+    transform: scale(1.2);
+}
+
+.text-info {
+   
+
+    position: absolute;
+    width: 454px;
+    height: 161px;
+    left: 28px;
+    top: 755px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #000000;
+
+
+}
+main{
+    position: relative;
+    width: 100%;
+    left: 0;
+}
+.img {
+    /* завантаження (4) */
+
+    position: absolute;
+    width: 600px;
+    height: 383px;
+    left: 400px;
+    top: 755px;
+
+    border-radius: 48px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+
+}
+
+.tovar {
+    /* Каталог */
+
+    position: absolute;
+    width: 181px;
+    height: 56px;
+    left: 449px;
+    top: 1200px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+
+    color: #000000;
+
+
+}
+
+.tovar:hover {
+    transition: 1s linear;
+    transform: scale(1.2);
+}
+
+.t-shirt-img {
+    
+
+    position: absolute;
+    width: 250px;
+    height: 350px;
+    left: 70px;
+    top: 1350px;
+
+    
+
+}
+
+.t-shirt-t {
+    
+
+    position: absolute;
+    width: 143px;
+    height: 38px;
+    left: 120px;
+    top: 1571px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    /* identical to box height */
+
+    color: #000000;
+
+
+}
+
+.text {
+    
+
+    position: absolute;
+    width: 326px;
+    height: 23px;
+    left: 70px;
+    top: 1639px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #000000;
+
+
+}
+
+.sallary {
+    
+
+    position: absolute;
+    width: 196px;
+    height: 28px;
+    left: 100px;
+    top: 1752px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
+    background-color: #5CA5F2;
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+
+}
+
+.sallary:hover {
+    box-shadow: 3px 3px 3px 3px grey;
+    transition: 1s linear;
+}
+
+.snnkiy-img {
+    
+
+    position: absolute;
+    width: 225px;
+    height: 150px;
+    left: 449px;
+    top: 1459px;
+
+
+}
+
+.h4 {
+    
+
+    position: absolute;
+    width: 280px;
+    height: 30px;
+    left: 420px;
+    top: 1571px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 38px;
+    /* identical to box height */
+
+    color: #000000;
+
+
+}
+
+.text1 {
+
+    position: absolute;
+    width: 337px;
+    height: 46px;
+    left: 444px;
+    top: 1680px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #000000;
+
+
+}
+
+.sallary1 {
+
+    position: absolute;
+    width: 182px;
+    height: 28px;
+    left: 449px;
+    top: 1752px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
+    background-color: #5CA5F2;
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+
+
+}
+
+.sallary1:hover {
+    box-shadow: 3px 3px 3px 3px grey;
+    transition: 1s linear;
+}
+
+.w-img {
+    
+
+    position: absolute;
+    width: 235px;
+    height: 160px;
+    left: 735px;
+    top: 1459px;
+
+    background: url(shopping (3).png);
+
+}
+
+.fut {
+    
+
+    position: absolute;
+    width: 255px;
+    height: 38px;
+    left: 800px;
+    top: 1575px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    /* identical to box height */
+
+    color: #000000;
+
+
+}
+
+.text2 {
+   
+
+    position: absolute;
+    width: 309px;
+    height: 161px;
+    left: 780px;
+    top: 1639px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #000000;
+
+
+}
+
+.sallary2 {
+    
+
+    position: absolute;
+    width: 196px;
+    height: 28px;
+    left: 790px;
+    top: 1752px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
+    background-color: #5CA5F2;
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+
+
+}
+
+.sallary2:hover {
+    box-shadow: 3px 3px 3px 3px grey;
+    transition: 1s linear;
+}
+
+.vidguk_1 {
+    /* Відгуки */
+
+    position: absolute;
+    width: 168px;
+    height: 56px;
+    left: 519px;
+    top: 1900px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+
+    color: #000000;
+
+
+}
+
+.vidguk_1:hover {
+    transition: 1s linear;
+    transform: scale(1.2);
+}
+
+.vidguk-img {
+    /* images (7) */
+
+    position: absolute;
+    width: 190px;
+    height: 190px;
+    left: 119px;
+    top: 2100px;
+
+
+}
+
+.first_1 p {
+   
+
+    position: absolute;
+    width: 600px;
+    height: 28px;
+    left: 357px;
+    top: 1000px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
+
+
+}
+
+.second-img {
+    
+
+    position: absolute;
+    width: 190px;
+    height: 190px;
+    left: 119px;
+    top: 2419px;
+    border-radius: 50%;
+
+}
+
+.second-art p {
+
+    position: absolute;
+    width: 600px;
+    height: 28px;
+    left: 357px;
+    top: 2425px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
+
+
+}
+.second-art1 p {
+
+    position: absolute;
+    width: 600px;
+    height: 28px;
+    left: 357px;
+    top: 2102px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
+
+
+}
+
+.cs {
+    /* Де нас знайти? */
+
+    position: absolute;
+    width: 444px;
+    height: 56px;
+    left: 448px;
+    top: 2655px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+
+    color: #000000;
+
+
+}
+
+.cs:hover {
+    transition: 1s linear;
+    transform: scale(1.2);
+}
+
+iframe {
+    /* Без імені */
+
+    position: absolute;
+    width: 770px;
+    height: 500px;
+    left: 160px;
+    top: 2841px;
+
+
+}
+
+.adress {
+    /* Адреса */
+
+    position: absolute;
+    width: 125px;
+    height: 42px;
+    left: 537px;
+    top: 3409px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 42px;
+
+    color: #000000;
+
+
+}
+
+.adress:hover {
+    transition: 1s linear;
+    transform: scale(1.2);
+}
+
+.top {
+
+    position: absolute;
+    width: 362px;
+    height: 84px;
+    left: 429px;
+    top: 3536px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+
+    color: #000000;
+
+
+}
+
+.top1 {
+
+    position: absolute;
+    width: 271px;
+    height: 84px;
+    left: 474px;
+    top: 3698px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+
+    color: #000000;
+
+
+}
+
+.top2 {
+    
+
+    position: absolute;
+    width: 540px;
+    height: 84px;
+    left: 340px;
+    top: 3860px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+
+    color: #000000;
+
+
+}
+
+footer {
+
+
+    position: absolute;
+    width: 100%;
+    height: 185px;
+    left: 0px;
+    top: 4069px;
+
+    background: #5CA5F2;
+
+}
+
+footer h4 {
+    /* Номер телефону: 0968443871 */
+
+    position: absolute;
+    width: 500px;
+    height: 42px;
+    left: 88px;
+    top: 36px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #000000;
+
+
+}
+
+footer h4:hover {
+    color: white;
+    transform: scale(1.2);
+    transition: 1s linear;
+}
+
+footer p {
+    /* Соц мережі */
+
+    position: relative;
+    width: 131px;
+    height: 28px;
+    left: 760px;
+    top: 22px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+
+    color: #000000;
+
+
+}
+
+.i {
+    /* завантаження (7) */
+
+    position: absolute;
+    width: 74px;
+    height: 67px;
+    left: 871px;
+    top: 88px;
+    border-radius: 15px;
+
+}
+
+.f {
+
+    position: absolute;
+    width: 74px;
+    height: 67px;
+    left: 750px;
+    top: 88px;
+    border-radius: 15px;
+
+}
+
+.info {
+    width: 100%;
+}
+
